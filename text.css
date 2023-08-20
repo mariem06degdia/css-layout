@@ -1,0 +1,98 @@
+body{
+    margin: 0px 200px;
+}
+.logo1 {
+    height: 33px;
+    width: 268px;
+    margin-top: 10px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-links{
+    display: flex;
+  }
+  .nav-links a:hover{
+    color: #00b39b;
+  }
+  .nav-links li{
+    margin-right:20px;
+    font: 15px roboto, arial, sans-serif ;
+    list-style: none;
+  }
+  .nav-links a{
+    color: #ababab;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .lead{
+    text-align: center;
+    padding: 50px;
+  }
+.prs{
+   display: flex; 
+   justify-content:space-between;
+}
+.prs p{
+    border: 1PX solid transparent;
+margin:0px 70px;
+color: #ababab;
+}
+.mkn{
+    color: #00b39b;
+}
+.CARTS{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction:row;
+  gap: 20px;
+.carte1{
+  background-color: #00ccb1;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 32px 32px 0;
+
+}
+.carte2{
+  background-color:rgb(52, 153, 221);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 32px 32px 0;
+}
+.carte3{
+  background-color:rgb(22, 29, 63);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 32px 32px 0;
+}
+.hc{
+  font-size:1.625 ;
+  font-weight:400 ;
+}
+.mc{
+  font-size: 1.5em;
+  font-weight:normal;
+  line-height: 1.2;
+   font-family: 24px 'work sans',ariel, sans serif;
+   margin: 19.9px 0px;
+
+}
+#select-1{
+width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+
+    padding:0px 38.4px 0px 0px ;
+   font: 19.2px roboto,ariel sans-serif;
+   margin: 40px;
+}
